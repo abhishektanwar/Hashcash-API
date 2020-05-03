@@ -25,7 +25,7 @@ SECRET_KEY = 'h%lg6r^v5%3u*+x-1si^ps9ny_#yuut7tvi*hwb4^!f9cey9!7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hashcashrestapi.herokuapp.com']
 
 
 # Application definition
