@@ -9,4 +9,4 @@ class ContentHashSerializer(serializers.ModelSerializer):
 class HashIdentifierSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = HashIdentifier
-		fields = ['id','hashIdentifierKey','activeStatus']
+		fields = ['id','hashIdentifierString','activeStatus']
